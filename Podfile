@@ -6,6 +6,6 @@ target 'BittrexApiKit' do
   use_frameworks!
 
   # Pods for BittrexApiKit
-  pod 'CryptoSwift'
+
 
 end
