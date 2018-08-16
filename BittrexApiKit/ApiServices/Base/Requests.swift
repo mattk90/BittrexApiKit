@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CryptoSwift
+import CommonCrypto
 
 struct HTTPCall<Request: APIBase> {
     private let request: Request
@@ -30,14 +30,10 @@ struct HTTPCall<Request: APIBase> {
         // Was previously this
         //let sign = HMAC.sign(message: generateUrl(), algorithm: .sha512, key: auth.secretkey)
         
-        // With CryptoSwift now
-        let hmac_sha = try? HMAC(key: auth.secretkey, variant: .sha512).authenticate(Array(generateUrl().utf8))
-        let sign = hmac_sha?.toBase64()
+        // With only using CommonCrypto now
+        let sign = generateUrl().hmac(algorithm: .sha512, key: auth.secretkey)
         
-        if let signstr = sign{
-            return ["apisign": signstr]
-        }
-        return [:]
+        return ["apisign": sign]
     }
     
     func generateUrl() -> String{
