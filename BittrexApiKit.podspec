@@ -13,7 +13,7 @@ s.ios.deployment_target  = '9.0'
 s.requires_arc = true
 
 s.source_files = 'BittrexApiKit/**/*'
-s.frameworks = 'UIKit', 'CommonCrypto', 'Foundation'
+s.frameworks = 'UIKit', 'CryptoSwift', 'CommonCrypto', 'Foundation'
 s.vendored_frameworks = "CommonCrypto.framework", "Crypto.framework"
 
 end
