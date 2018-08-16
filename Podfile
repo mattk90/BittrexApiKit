@@ -8,5 +8,4 @@ target 'BittrexApiKit' do
   # Pods for BittrexApiKit
   pod 'CryptoSwift'
 
-
 end
