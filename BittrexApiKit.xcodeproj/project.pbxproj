@@ -14,9 +14,7 @@
 		367102751FFA99BA00D82CB9 /* MarketApiResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367102741FFA99BA00D82CB9 /* MarketApiResponses.swift */; };
 		367102771FFA99D000D82CB9 /* AccountApiResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367102761FFA99D000D82CB9 /* AccountApiResponses.swift */; };
 		3671028F1FFAA11200D82CB9 /* CommonCrypto.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 367E4A511FF92E6600ED024F /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		367102901FFAA11200D82CB9 /* Crypto.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 367E4A501FF92E6600ED024F /* Crypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		367E4A461FF92DEF00ED024F /* BittrexApiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 367E4A441FF92DEF00ED024F /* BittrexApiKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		367E4A521FF92E6600ED024F /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367E4A501FF92E6600ED024F /* Crypto.framework */; };
 		367E4A531FF92E6600ED024F /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367E4A511FF92E6600ED024F /* CommonCrypto.framework */; };
 		367E4A5B1FF92E8600ED024F /* MarketApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E4A541FF92E8500ED024F /* MarketApi.swift */; };
 		367E4A5C1FF92E8600ED024F /* PublicApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E4A551FF92E8500ED024F /* PublicApi.swift */; };
@@ -40,6 +38,7 @@
 		36ECC3A41FFABC6300121D42 /* PublicApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC3A31FFABC6300121D42 /* PublicApiTests.swift */; };
 		36ECC3A61FFAC91800121D42 /* MarketApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC3A51FFAC91800121D42 /* MarketApiTests.swift */; };
 		36ECC3A81FFACB1B00121D42 /* AccountApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC3A71FFACB1B00121D42 /* AccountApiTests.swift */; };
+		831CF5E28EDFF7503FA1C813 /* Pods_BittrexApiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FEE9904D505C6C5926D83B /* Pods_BittrexApiKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +59,13 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3671028F1FFAA11200D82CB9 /* CommonCrypto.framework in CopyFiles */,
-				367102901FFAA11200D82CB9 /* Crypto.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E77C2050CEDCFE57DF91041 /* Pods-BittrexApiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BittrexApiKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BittrexApiKit/Pods-BittrexApiKit.debug.xcconfig"; sourceTree = "<group>"; };
 		3671026C1FFA8E5800D82CB9 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		3671026E1FFA91CB00D82CB9 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
 		367102701FFA94B800D82CB9 /* WithrawDepositHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithrawDepositHistory.swift; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 		367E4A411FF92DEF00ED024F /* BittrexApiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BittrexApiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		367E4A441FF92DEF00ED024F /* BittrexApiKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BittrexApiKit.h; sourceTree = "<group>"; };
 		367E4A451FF92DEF00ED024F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		367E4A501FF92E6600ED024F /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = "<group>"; };
 		367E4A511FF92E6600ED024F /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
 		367E4A541FF92E8500ED024F /* MarketApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketApi.swift; sourceTree = "<group>"; };
 		367E4A551FF92E8500ED024F /* PublicApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicApi.swift; sourceTree = "<group>"; };
@@ -101,6 +99,8 @@
 		36ECC3A31FFABC6300121D42 /* PublicApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicApiTests.swift; sourceTree = "<group>"; };
 		36ECC3A51FFAC91800121D42 /* MarketApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketApiTests.swift; sourceTree = "<group>"; };
 		36ECC3A71FFACB1B00121D42 /* AccountApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiTests.swift; sourceTree = "<group>"; };
+		87FEE9904D505C6C5926D83B /* Pods_BittrexApiKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BittrexApiKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49AF509E55682093652F579 /* Pods-BittrexApiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BittrexApiKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BittrexApiKit/Pods-BittrexApiKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				367E4A531FF92E6600ED024F /* CommonCrypto.framework in Frameworks */,
-				367E4A521FF92E6600ED024F /* Crypto.framework in Frameworks */,
+				831CF5E28EDFF7503FA1C813 /* Pods_BittrexApiKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +155,11 @@
 			isa = PBXGroup;
 			children = (
 				367E4A511FF92E6600ED024F /* CommonCrypto.framework */,
-				367E4A501FF92E6600ED024F /* Crypto.framework */,
 				367E4A431FF92DEF00ED024F /* BittrexApiKit */,
 				36ECC3991FFABC5400121D42 /* BittrexApiTests */,
 				367E4A421FF92DEF00ED024F /* Products */,
+				57796A2A381470981FB95AA4 /* Pods */,
+				C0E28AD4141BA7BB063BD4C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +237,23 @@
 			path = BittrexApiTests;
 			sourceTree = "<group>";
 		};
+		57796A2A381470981FB95AA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E77C2050CEDCFE57DF91041 /* Pods-BittrexApiKit.debug.xcconfig */,
+				F49AF509E55682093652F579 /* Pods-BittrexApiKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0E28AD4141BA7BB063BD4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FEE9904D505C6C5926D83B /* Pods_BittrexApiKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -254,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 367E4A491FF92DEF00ED024F /* Build configuration list for PBXNativeTarget "BittrexApiKit" */;
 			buildPhases = (
+				565E70165FBFB076C7B6A90F /* [CP] Check Pods Manifest.lock */,
 				367E4A3C1FF92DEF00ED024F /* Sources */,
 				367E4A3D1FF92DEF00ED024F /* Frameworks */,
 				367E4A3E1FF92DEF00ED024F /* Headers */,
@@ -341,6 +360,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		565E70165FBFB076C7B6A90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BittrexApiKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		367E4A3C1FF92DEF00ED024F /* Sources */ = {
@@ -450,6 +490,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -502,6 +543,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -510,11 +552,12 @@
 		};
 		367E4A4A1FF92DEF00ED024F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E77C2050CEDCFE57DF91041 /* Pods-BittrexApiKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 54N8PNS7FS;
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -536,11 +579,12 @@
 		};
 		367E4A4B1FF92DEF00ED024F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49AF509E55682093652F579 /* Pods-BittrexApiKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 54N8PNS7FS;
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
